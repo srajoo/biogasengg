@@ -5,7 +5,8 @@ import React from "react";
 export function Header65() {
   return (
     <section className="relative px-[5%] py-16 md:py-24 lg:py-28">
-      <div className="relative z-10 container max-w-lg text-center">
+      <div className=" relative z-10 container max-w-lg text-center glass-card-trans">
+      <div className="relative z-10 container max-w-lg text-center glass-card-sub">
         <h1 className=" mb-5 font-bold text-white md:mb-6" style={{fontSize: '35px'}}>
           Pioneering the Future of Renewable Energy
         </h1>
@@ -18,6 +19,8 @@ export function Header65() {
           usable energy.
         </p>
       </div>
+      </div>
+      
       <div className="absolute inset-0 z-0">
         <img
           src="/images/home/3.jpeg"
@@ -26,6 +29,8 @@ export function Header65() {
         />
         <div className="absolute inset-0 bg-neutral-darkest/50" />
       </div>
+   
+      
     </section>
   );
 }

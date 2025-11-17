@@ -7,7 +7,8 @@ export function Layout19() {
     <section className="px-[5%] py-16 md:py-24 lg:py-28">
       <div className="container">
         <div className="grid grid-cols-1 gap-y-12 md:grid-cols-2 md:items-center md:gap-x-12 lg:gap-x-20">
-          <div>
+        <div className="glass-card">
+          <div className="glass-card-sub">
             <p className="mb-3 font-semibold md:mb-4">Our Story</p>
             <h2 className="mb-5 font-bold md:mb-6" style={{fontSize: '35px'}}>
               Core principle: do what we say we’ll do, and do it well.
@@ -19,6 +20,7 @@ export function Layout19() {
               company delivering RNG balance-of-plant systems across multiple
               waste feedstocks — landfill, dairy, and wastewater.
             </p>
+          </div>
           </div>
           <div>
             <img

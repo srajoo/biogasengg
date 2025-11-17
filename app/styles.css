@@ -28,7 +28,7 @@
     grid-row-gap: 0px;
     -webkit-backdrop-filter: blur(34px);
     backdrop-filter: blur(34px);
-    background-color: rgba(235, 242, 255, .05);
+    background-color: rgba(235, 242, 255, .03);
     border-radius: 24px;
     flex-direction: column;
     justify-content: center;
@@ -50,7 +50,7 @@
 .glass-card-sub{
     width: 100%;
     grid-column-gap: 32px;
-    grid-row-gap: 32px;
+    grid-row-gap: 0;
     -webkit-backdrop-filter: blur(34px);
     backdrop-filter: blur(34px);
     /* background-color: rgba(0, 0, 0, 0); */

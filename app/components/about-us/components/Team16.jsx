@@ -10,7 +10,7 @@ export function Team16() {
       <div className="container grid grid-cols-1 items-start md:grid-flow-row md:gap-x-12 lg:gap-x-20">
         <div className="mb-12 max-w-lg md:mb-18 lg:mb-20">
           <p className="mb-3 font-semibold md:mb-4">Leadership</p>
-          <h2 className="heading-h2 mb-5 font-bold md:mb-6">
+          <h2 className=" mb-5 font-bold md:mb-6" style={{fontSize:"35px"}}>
             The team building renewable gas systems
           </h2>
         </div>
@@ -33,12 +33,7 @@ export function Team16() {
                 <a href="#">
                   <BiLogoLinkedinSquare className="size-6" />
                 </a>
-                <a href="#">
-                  <FaXTwitter className="size-6 p-0.5" />
-                </a>
-                <a href="#">
-                  <BiLogoDribbble className="size-6" />
-                </a>
+               
               </div>
             </div>
           </div>
@@ -60,12 +55,7 @@ export function Team16() {
                 <a href="#">
                   <BiLogoLinkedinSquare className="size-6" />
                 </a>
-                <a href="#">
-                  <FaXTwitter className="size-6 p-0.5" />
-                </a>
-                <a href="#">
-                  <BiLogoDribbble className="size-6" />
-                </a>
+                
               </div>
             </div>
           </div>
@@ -87,12 +77,7 @@ export function Team16() {
                 <a href="#">
                   <BiLogoLinkedinSquare className="size-6" />
                 </a>
-                <a href="#">
-                  <FaXTwitter className="size-6 p-0.5" />
-                </a>
-                <a href="#">
-                  <BiLogoDribbble className="size-6" />
-                </a>
+                
               </div>
             </div>
           </div>
@@ -114,12 +99,7 @@ export function Team16() {
                 <a href="#">
                   <BiLogoLinkedinSquare className="size-6" />
                 </a>
-                <a href="#">
-                  <FaXTwitter className="size-6 p-0.5" />
-                </a>
-                <a href="#">
-                  <BiLogoDribbble className="size-6" />
-                </a>
+               
               </div>
             </div>
           </div>
