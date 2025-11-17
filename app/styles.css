@@ -12,11 +12,36 @@
     padding: 2px;
     display: flex;
     -webkit-text-fill-color: inherit;
-    background-image: linear-gradient(32deg, rgba(0, 0, 0, 0) 85%, #9e9cff), linear-gradient(229deg, rgba(0, 0, 0, 0) 85%, rgba(213, 97, 254, .7));
+    background-image: linear-gradient(32deg, rgba(0, 0, 0, 0) 85%, #8200f6), linear-gradient(229deg, rgba(0, 0, 0, 0) 85%, rgba(213, 97, 254, .7));
     background-clip: border-box;
 }
 
 .glass-card:hover{
+    -webkit-text-fill-color: inherit;
+    background-image: linear-gradient(32deg, rgba(0, 0, 0, 0) 85%, #9e9cff), linear-gradient(229deg, rgba(0, 0, 0, 0) 85%, rgba(213, 97, 254, .7));
+    background-clip: border-box;
+}
+
+.glass-card-trans{
+    width: 100%;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    -webkit-backdrop-filter: blur(34px);
+    backdrop-filter: blur(34px);
+    background-color: rgba(235, 242, 255, .05);
+    border-radius: 24px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2px;
+    display: flex;
+    
+}
+.rounded-image{
+    border-radius: 24px;
+}
+
+.glass-card-trans:hover{
     -webkit-text-fill-color: inherit;
     background-image: linear-gradient(32deg, rgba(0, 0, 0, 0) 85%, #9e9cff), linear-gradient(229deg, rgba(0, 0, 0, 0) 85%, rgba(213, 97, 254, .7));
     background-clip: border-box;

@@ -1,0 +1,4 @@
+node_modules/@babel/generator/LICENSE
+/node_modules
+node_modules/
+.next/
